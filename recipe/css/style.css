@@ -1,0 +1,351 @@
+body{
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h1,h2,h3{
+	text-align: center;
+	color:#aaa888;
+	margin: 0px;
+}
+p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	color:#483c32;
+}
+button:focus{
+	outline:0;
+}
+strong{
+	color: #aaa888;
+}
+.lineout{
+	text-decoration: line-through;
+}
+.bigup{
+	transform: scale(1.2) !important; 
+}
+.highL{
+	background-color: #f3f315;
+}
+.pointer{
+	cursor: pointer;
+}
+.shade{
+	opacity: 0.2;
+}
+.grow1 { 
+	transition: all .6s ease-in-out; 
+}
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+#pageHolder{
+	width: 100%;
+	//background-image:url("../images/cutback.png");
+}
+.menuWrap{
+	width: 100%;
+	background-color: grey;
+}	
+.menu ul li:hover{
+	color: #f66303;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.menu a:hover{
+	color: yellow;
+}
+#mainWrap{
+	width:100%;
+}		
+.buttonWrap button:hover{
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}				
+@media screen and (max-width: 685px){ 
+.menu{
+	width: 170px;
+	margin: 0px auto;
+}
+.menu ul li{
+	display: inline-block;
+	padding-left:8px;
+	padding-right: 8px; 
+	color: white;
+	font-size: 0.8em;
+}
+.mainPartition1{					
+border-top: 3px solid red;
+text-align: center;
+}
+.mainPartition2{
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: .1em solid #aaa888;
+}
+.mainPartition2 img{
+	width:135px;
+	height: 100px;
+	border-radius: 100px;
+	box-shadow: 0px 5px 20px black;
+}
+.mainPartition2 img:hover{  
+	border-radius:30px;
+	transform: scale(2.5);
+}
+.mainPartition3{
+	padding-top: 20px;
+}
+.ingredient{				
+padding-left: 10px;               
+width: 55%;
+display: inline-block;
+}
+.ingredient ul li{
+	width: 90%;
+	margin: 0px auto;
+	font-size: 0.9em;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.ingredient ul li:hover{
+	transform: scale(1.1); 
+}
+.buttonWrap{					
+	width: 105px;
+	margin: 0px auto;
+}
+.buttonWrap button{
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: grey;
+	box-shadow: 0px 5px 20px #3d3d3d;
+}
+.buttonWrap button p{
+	font-size: 1.3em;
+}
+.buttonToggleimages{
+	width: 38%;
+	display: inline-block;
+	vertical-align: top;
+}
+.buttonToggleimages p{
+	 font-size: 0.9em;
+	padding-top: 5px;
+}
+.buttonNote{
+	padding-top: 5px;
+	width: 95%;
+	margin: 0px auto;
+}
+.buttonNote p{
+	font-size: 0.8em;
+	text-align: center;;
+}
+.pictureWrap{
+	text-align: center;
+}
+.picture{						
+	padding-top: 20px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+.picture img{
+	width:85px;
+	height:85px;
+	border-radius: 42.5px;
+	box-shadow: 0px 5px 20px #000000;
+}
+.picture img:hover{
+	transform: scale(1.1);
+	cursor: pointer; 
+}
+.instruction{
+	border-bottom: 0.1em solid #aaa888;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+.instruction p{
+	width: 95%;
+	margin: 0px auto;
+	font-size: 0.9em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.instructionParagraphWrap{
+	width: 90%;
+	margin: 0px auto;
+}
+.instructionParagraph{
+	display: table-row;
+	color:#483c32;
+	font-size: 0.9em;
+}
+.moreInformation{		
+	width: 95%;
+	margin: 0px auto;
+}
+.moreInformation ul li{
+	font-size: 0.8em;
+	padding-top: 5px; 
+}
+.moreInformation ul li:last-child{
+	padding-bottom: 5px; 
+}
+#footer{
+	border-bottom: 0.1em solid #aaa888;
+	border-top: 0.1em solid #aaa888;
+	text-align: center;
+}
+}
+@media screen and (min-width: 686px){   
+.menu{
+	width: 197px;
+	margin: 0px auto;
+}
+.menu ul li{
+	display: inline-block;
+	padding-left:8px;
+	padding-right: 8px; 
+	color: white;
+	font-size: 1em;
+}
+.mainPartition1{ 				
+border-top: 5px solid red;
+text-align: center;
+}
+.mainPartition2{
+	padding-bottom: 15px;
+	text-align: center;
+	border-bottom: .1em solid #aaa888;
+}
+.mainPartition2 img{				
+	width:165px;
+	height: 120px;
+	border-radius: 82.5px;
+	box-shadow: 0px 5px 20px black;
+}
+.mainPartition2 img:hover{
+	border-radius:30px;
+	transform: scale(2.5);
+}
+.mainPartition3{			
+	padding-top: 20px;
+}
+.ingredient{				
+padding-left: 10px;
+width: 55%;
+display: inline-block;
+}
+.ingredient ul li{
+	width: 90%;
+	margin: 0px auto;
+	font-size: 0.9em;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.ingredient ul li:hover{
+	transform: scale(1.1); 
+}
+.buttonWrap{    				
+	width: 250px;
+	margin: 0px auto;
+	text-align: center;
+}
+.buttonWrap button{
+	width: 140px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: grey;
+	box-shadow: 0px 5px 20px #3d3d3d;
+}
+.buttonWrap button p{
+	font-size: 1.6em;
+}
+.buttonToggleimages{
+	width: 38%;
+	display: inline-block;
+	vertical-align: top;
+}
+.buttonToggleimages p{
+	font-size: 0.9em;
+	padding-top: 5px;
+}
+.buttonNote{
+	padding-top: 5px;
+	width: 250px;
+	margin: 0px auto;
+}
+.buttonNote p{
+	font-size: 1em;
+	text-align: center;;
+}			
+.pictureWrap{
+	text-align: center;
+}
+.picture{						
+	padding-top: 30px;
+	padding-bottom: 15px;
+	display: inline-block;
+}
+.picture img{
+	width:105px;
+	height:105px;
+	border-radius: 52.5px;
+	box-shadow: 0px 5px 20px #000000;
+}
+.picture img:hover{
+	transform: scale(1.1);
+	cursor: pointer; 
+}
+.instruction{				
+	border-bottom: 0.1em solid #aaa888;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+.instruction p{
+	width: 95%;
+	margin: 0px auto;
+	font-size: 0.9em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.instructionParagraphWrap{
+	width: 90%;
+	margin: 0px auto;
+}
+.instructionParagraph{
+	display: table-row;
+	color:#483c32;
+	font-size: 1em;
+}
+.moreInformation{
+	width: 95%;
+	margin: 0px auto;
+}
+.moreInformation ul li{
+	font-size: 0.8em;
+	padding-top: 5px; 
+}
+.moreInformation ul li:last-child{
+	padding-bottom: 5px; 
+}
+#footer{
+	border-bottom: 0.1em solid #aaa888;
+	border-top: 0.1em solid #aaa888;
+	text-align: center;
+}
+}
+
