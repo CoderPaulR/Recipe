@@ -2,12 +2,12 @@ body{
 	background-color: #ffffff;
 	margin: 0px;
 	padding: 0px;
-	color: #333333;
-	font-family: Tahoma, Geneva, sans-serif;
+	color: #2e3b4e;
+	font-family: 'Roboto',Tahoma, Geneva, sans-serif;
 }
 h1,h2,h3{
 	text-align: center;
-	color:#aaa888;
+	color:#78909c;
 	margin: 0px;
 }
 p,ul{
@@ -18,13 +18,16 @@ li{
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	color:#483c32;
+	color:#78909c;
 }
 button:focus{
 	outline:0;
 }
+.buttonNote p strong{
+	color:#78909c;
+}
 strong{
-	color: #aaa888;
+	color:#483c32;
 }
 .lineout{
 	text-decoration: line-through;
@@ -50,9 +53,19 @@ strong{
 #pageHolder{
 	width: 100%;
 }
+#header{
+	position:fixed;
+	margin-top:-100px;
+	padding-top:24px;
+	width:100%;
+	background-color:#fff;
+	z-index:1;
+}
 .menuWrap{
 	width: 100%;
-	background-color: grey;
+	background-color: #5f6a7d;
+	border:1px solid #78909c;
+	margin-top:15px;
 }	
 .menu ul li:hover{
 	color: #f66303;
@@ -62,10 +75,11 @@ strong{
 	color: white;
 }
 .menu a:hover{
-	color: yellow;
+	color: #78909c;
 }
 #mainWrap{
 	width:100%;
+	margin-top:80px;
 }		
 .buttonWrap button:hover{
 	background-color: #1288fd;
@@ -76,6 +90,7 @@ strong{
 .menu{
 	width: 170px;
 	margin: 0px auto;
+
 }
 .menu ul li{
 	display: inline-block;
@@ -85,31 +100,31 @@ strong{
 	font-size: 0.8em;
 }
 .mainPartition1{					
-border-top: 3px solid red;
-text-align: center;
+	text-align: center;
 }
 .mainPartition2{
 	padding-bottom: 10px;
 	text-align: center;
-	border-bottom: .1em solid #aaa888;
+	border-bottom: .1em solid #78909c;
 }
 .mainPartition2 img{
 	width:135px;
 	height: 100px;
 	border-radius: 100px;
-	box-shadow: 0px 5px 20px black;
+	box-shadow: 0px 1px 2px #3d3d3d;
 }
 .mainPartition2 img:hover{  
 	border-radius:30px;
-	transform: scale(2.5);
+	transform: scale(1.5);
+	z-index:-10;
 }
 .mainPartition3{
 	padding-top: 20px;
 }
 .ingredient{				
-padding-left: 10px;               
-width: 55%;
-display: inline-block;
+	padding-left: 10px;               
+	width: 55%;
+	display: inline-block;
 }
 .ingredient ul li{
 	width: 90%;
@@ -167,14 +182,15 @@ display: inline-block;
 	width:85px;
 	height:85px;
 	border-radius: 42.5px;
-	box-shadow: 0px 5px 20px #000000;
+	margin: 0px 2px 0px 2px;
+	box-shadow: 0px 1px 2px #3d3d3d;
 }
 .picture img:hover{
 	transform: scale(1.1);
 	cursor: pointer; 
 }
 .instruction{
-	border-bottom: 0.1em solid #aaa888;
+	border-bottom: 0.1em solid #78909c;
 	padding-left: 10px;
 	padding-bottom: 15px;
 }
@@ -191,7 +207,7 @@ display: inline-block;
 }
 .instructionParagraph{
 	display: table-row;
-	color:#483c32;
+	color:#78909c;
 	font-size: 0.9em;
 }
 .moreInformation{		
@@ -206,9 +222,14 @@ display: inline-block;
 	padding-bottom: 5px; 
 }
 #footer{
-	border-bottom: 0.1em solid #aaa888;
-	border-top: 0.1em solid #aaa888;
+	padding-top:7px;
+	padding-bottom: 3px; 
+	border-top: 0.1em solid #78909c;
 	text-align: center;
+	background-color:#5f6a7d;
+}
+#footer h3{
+	color:#fff;
 }
 }
 @media screen and (min-width: 686px){   
@@ -224,31 +245,30 @@ display: inline-block;
 	font-size: 1em;
 }
 .mainPartition1{ 				
-border-top: 5px solid red;
-text-align: center;
+	text-align: center;
 }
 .mainPartition2{
 	padding-bottom: 15px;
 	text-align: center;
-	border-bottom: .1em solid #aaa888;
+	border-bottom: .1em solid #78909c;
 }
 .mainPartition2 img{				
 	width:165px;
 	height: 120px;
 	border-radius: 82.5px;
-	box-shadow: 0px 5px 20px black;
+	box-shadow: 0px 1px 2px #3d3d3d;
 }
 .mainPartition2 img:hover{
 	border-radius:30px;
-	transform: scale(2.5);
+	transform: scale(1.6);
 }
 .mainPartition3{			
 	padding-top: 20px;
 }
 .ingredient{				
-padding-left: 10px;
-width: 55%;
-display: inline-block;
+	padding-left: 10px;
+	width: 55%;
+	display: inline-block;
 }
 .ingredient ul li{
 	width: 90%;
@@ -307,14 +327,15 @@ display: inline-block;
 	width:105px;
 	height:105px;
 	border-radius: 52.5px;
-	box-shadow: 0px 5px 20px #000000;
+	margin: 0px 2px 0px 2px;
+	box-shadow: 0px 1px 2px #3d3d3d;
 }
 .picture img:hover{
 	transform: scale(1.1);
 	cursor: pointer; 
 }
 .instruction{				
-	border-bottom: 0.1em solid #aaa888;
+	border-bottom: 0.1em solid #78909c;
 	padding-left: 10px;
 	padding-bottom: 15px;
 }
@@ -331,7 +352,7 @@ display: inline-block;
 }
 .instructionParagraph{
 	display: table-row;
-	color:#483c32;
+	color:#78909c;
 	font-size: 1em;
 }
 .moreInformation{
@@ -346,9 +367,13 @@ display: inline-block;
 	padding-bottom: 5px; 
 }
 #footer{
-	border-bottom: 0.1em solid #aaa888;
-	border-top: 0.1em solid #aaa888;
+	padding-top:10px;
+	padding-bottom: 5px; 
+	border-top: 0.1em solid #78909c;
 	text-align: center;
+	background-color:#5f6a7d;
+}
+#footer h3{
+	color:#fff;
 }
 }
-

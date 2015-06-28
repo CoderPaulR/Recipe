@@ -29,7 +29,7 @@ $(document).ready(function() {
 			$(this).addClass('highL');
 		}
 	});
-	$('.buttonToggleimages').click(function(){
+	$('.buttonWrap').click(function(){
 		$('img').toggle();
 	});	
 });
