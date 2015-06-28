@@ -49,6 +49,7 @@ strong{
 }
 #pageHolder{
 	width: 100%;
+	//background-image:url("../images/cutback.png");
 }
 .menuWrap{
 	width: 100%;
@@ -68,9 +69,9 @@ strong{
 	width:100%;
 }		
 .buttonWrap button:hover{
-	background-color: blue;
+	background-color: #1288fd;
 	cursor: pointer;
-	color: white;
+	//color: white;
 }				
 @media screen and (max-width: 685px){ 
 .menu{
@@ -128,11 +129,13 @@ display: inline-block;
 .buttonWrap button{
 	width: 100px;
 	height: 40px;
+	border: 1px solid #1288fd;
 	border-radius: 20px;
-	background-color: grey;
-	box-shadow: 0px 5px 20px #3d3d3d;
+	background-color: #2b95fd;
+	box-shadow: 0px 1px 2px #3d3d3d;
 }
 .buttonWrap button p{
+	color: #fff;
 	font-size: 1.3em;
 }
 .buttonToggleimages{
@@ -267,10 +270,12 @@ display: inline-block;
 	width: 140px;
 	height: 60px;
 	border-radius: 30px;
-	background-color: grey;
-	box-shadow: 0px 5px 20px #3d3d3d;
+	border: 1px solid #1288fd;
+	background-color: #2b95fd;
+	box-shadow: 0px 1px 2px #3d3d3d;
 }
 .buttonWrap button p{
+	color:#fff;
 	font-size: 1.6em;
 }
 .buttonToggleimages{
